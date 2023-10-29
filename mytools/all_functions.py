@@ -30,7 +30,7 @@ def getUrl(url):
 	'''
 	return requests.get(url)
 
-
+import glob
 def globFiles(path):
 	'''
 	provide path and i will glob its contents

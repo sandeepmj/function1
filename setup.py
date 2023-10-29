@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='function1', ##name of repo enclosing folder
-    version='0.0.5',
+    version='0.0.6',
     author='Sandeep Junnarkar',
     author_email='sjnews@gmail.com',
     description='Testing installation of Package',
