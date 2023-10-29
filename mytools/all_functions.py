@@ -11,3 +11,4 @@ def helloPerson(name):
 	'''
 	Enter a name in a string and i will say hello
 	'''
+	print(f"Hello {name}")
