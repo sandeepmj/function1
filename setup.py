@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/sandeepmj/function1/issues"
     },
     license='MIT',
-    packages=['my_tools'],
+    packages=['mytools'],
     install_requires=['requests'],
 )
