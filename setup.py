@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='function1', ##name of repo enclosing folder
-    version='0.0.3',
+    version='0.0.4',
     author='Sandeep Junnarkar',
     author_email='sjnews@gmail.com',
     description='Testing installation of Package',
@@ -17,5 +17,5 @@ setuptools.setup(
     },
     license='MIT',
     packages=['mytools'], ## name of folder that holds the functions
-    install_requires=['requests'],
+    install_requires=['requests', 'glob'],
 )
